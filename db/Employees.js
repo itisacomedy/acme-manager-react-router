@@ -1,7 +1,7 @@
-const conn = './conn';
-const Sequelize = conn.Sequelize;
+const conn = require('./conn');
+const { Sequelize } = conn;
 
-const Employees = conn.define('employees',{
+const Employees = conn.define('employees', {
   name: Sequelize.STRING
 })
 

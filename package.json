@@ -7,7 +7,7 @@
     "postinstall": "npm run webpack",
     "webpack": "./node_modules/webpack/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "npm run webpack -- -w & nodemon server.js --ignore dist/ --ignore src/ DATABASE_URL=postgres://localhost/acme_manager_react_router"
+    "start:dev": "npm run webpack -- -w & nodemon server.js --ignore dist/ --ignore src/"
   },
   "keywords": [],
   "author": "",
